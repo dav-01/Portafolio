@@ -7,17 +7,11 @@
 }
 
 
-/* body{
-    background: url(/img/Codigo_fuente.jpeg) no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: calc(100vh - 30vh);
-} */
-
 nav {
-    background-color: #125279;
     height: 80px;
     width: 100%;
+    position: fixed;
+    background: #06283D;
 }
 
 .enlace {
@@ -49,11 +43,12 @@ nav ul li a {
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
+    /* font-weight: bold; */
 }
 
 li a.active,
 li a:hover {
-    background: #000090;
+    background: #3C4048;
     transition: .6s;
 }
 
@@ -80,11 +75,12 @@ li a:hover {
     }
 }
 
-@media (max-width: 850px){
-    .checkbtn{
+@media (max-width: 850px) {
+    .checkbtn {
         display: block;
     }
-    ul{
+
+    ul {
         position: fixed;
         width: 100%;
         height: 100vh;
@@ -94,24 +90,69 @@ li a:hover {
         text-align: center;
         transition: all .5s;
     }
-    nav ul li{
+
+    nav ul li {
         display: block;
         margin: 50px 0;
         line-height: 30px;
     }
-    nav ul li a{
+
+    nav ul li a {
         font-size: 20px;
     }
-    li a:hover, li a.active{
+
+    li a:hover,
+    li a.active {
         background: none;
         color: red;
     }
 
-    .checkbtn{
+    .checkbtn {
         padding-right: 20px;
     }
-    #check:checked ~ ul{
+
+    #check:checked~ul {
         left: 0;
     }
 
+}
+
+section{
+    display: block;
+
+}
+
+.home {
+    /* border: solid 1px; */
+    height: 750px;
+    width: 55%;
+    float: left;
+    margin-top: 80px;
+}
+
+.img_giff {
+    /* border: solid 1px red; */
+    height: 750px;
+    width: 45%;
+    float: right;
+    margin-top: 80px;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 2em;
+}
+
+.proyectos{
+    height: 400px;
+    width: 100%;
+}
+.certificaciones{
+    height: 400px;
+    width: 100%;
+}
+footer{
+    height: 400px;
+    width: 100%;
 }
