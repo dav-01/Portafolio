@@ -6,6 +6,14 @@
     box-sizing: border-box;
 }
 
+/* body{
+    background-image: url(/img/lineas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 40vh;
+} */
+
 
 nav {
     height: 80px;
@@ -117,9 +125,9 @@ li a:hover {
 
 }
 
-section{
+section {
     display: block;
-
+    margin-top: 20px;
 }
 
 .home {
@@ -128,6 +136,13 @@ section{
     width: 55%;
     float: left;
     margin-top: 80px;
+}
+
+.foto_perfil {
+    border-radius: 180px;
+    height: 250px;
+    width: 250px;
+    margin-top: -50px;
 }
 
 .img_giff {
@@ -139,20 +154,65 @@ section{
 }
 
 
-h1{
+h2 {
     text-align: center;
-    font-size: 2em;
+    text-align: justify;
 }
 
-.proyectos{
+.titulos_section {
+    font-size: 2em;
+    text-align: center;
+}
+
+.habilidades {
     height: 400px;
     width: 100%;
 }
-.certificaciones{
+
+.proyectos {
     height: 400px;
     width: 100%;
 }
-footer{
+
+.certificaciones {
     height: 400px;
     width: 100%;
+}
+
+footer {
+    height: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+
+#acerca_de {
+    background-image: url(/img/img1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 100%;
+    padding-top: 80px;
+    color: #fff;
+    padding: 80px 30px 0px 30px;
+}
+
+#img_logos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px 100px;
+}
+
+.logo_habilidades {
+    height: 120px;
+    width: 120px;
+    margin: auto;
+    padding: 6px;
+    border-radius: 25px;
+
+}
+
+.logo_habilidades:hover {
+    transform: rotate(360deg);
+    transition: 4s;
 }
