@@ -1,3 +1,6 @@
+window.alert('En Progreso')
+
+
 $(function () {
     var texto = "David Cabrera";
     maquina("typer", texto, 100, 0);

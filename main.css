@@ -6,20 +6,16 @@
     box-sizing: border-box;
 }
 
-/* body{
-    background-image: url(/img/lineas.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0;
-    height: 40vh;
-} */
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
 
 
 nav {
     height: 80px;
     width: 100%;
     position: fixed;
-    background: #06283D;
+    background: rgba(1, 25, 39, 0.699);
 }
 
 .enlace {
@@ -133,24 +129,39 @@ section {
 .home {
     /* border: solid 1px; */
     height: 750px;
-    width: 55%;
+    width: 100%;
     float: left;
     margin-top: 0px;
+    /* border: solid 1px; */
+    
 }
 
 .foto_perfil {
     border-radius: 180px;
     height: 250px;
     width: 250px;
-    margin: 40px 25%;
+    margin: 40px 0  40px 25% ;
+}
+
+.nombre_presentacion{
+    font-size: 1.4em;
 }
 
 .img_giff {
     /* border: solid 1px red; */
     height: 750px;
-    width: 45%;
+    width: 100%;
     float: right;
+    padding: 25% 0px 0px 25%;
 }
+.img_code{
+    height: 300px;
+    width: 500px;
+    margin: auto;
+    border: solid 5px black;
+    border-radius: 10px;
+}
+
 
 
 h2 {
@@ -171,11 +182,40 @@ h2 {
 .proyectos {
     height: 400px;
     width: 100%;
+    margin-bottom: 50px;
 }
 
 .certificaciones {
     height: 400px;
     width: 100%;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px 100px;
+    margin-bottom: 50px;
+}
+
+.card{
+    background-color: lightblue;
+    height: 310px;
+    width: 270px;
+    border: solid 4px ;
+    margin: auto;
+    border-radius: 5px;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+.card_certificado{
+    height: 100%;
+    width: 100%;
+
+}
+.texto_certificados{
+    text-align: center;
 }
 
 footer {
@@ -189,11 +229,13 @@ footer {
     background-image: url(/img/img1.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 900px;
+    height: 840px;
     width: 100%;
     padding-top: 80px;
     color: #fff;
     padding: 80px 30px 0px 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 #img_logos {
