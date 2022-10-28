@@ -112,7 +112,7 @@ li a:hover {
     li a:hover,
     li a.active {
         background: none;
-        color: red;
+        color: #3b4fbb;
     }
 
     .checkbtn {
@@ -135,14 +135,14 @@ section {
     height: 750px;
     width: 55%;
     float: left;
-    margin-top: 80px;
+    margin-top: 0px;
 }
 
 .foto_perfil {
     border-radius: 180px;
     height: 250px;
     width: 250px;
-    margin-top: -50px;
+    margin: 40px 25%;
 }
 
 .img_giff {
@@ -150,7 +150,6 @@ section {
     height: 750px;
     width: 45%;
     float: right;
-    margin-top: 80px;
 }
 
 
@@ -190,7 +189,7 @@ footer {
     background-image: url(/img/img1.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 1000px;
+    height: 900px;
     width: 100%;
     padding-top: 80px;
     color: #fff;
