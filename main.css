@@ -151,15 +151,16 @@ section {
     /* border: solid 1px red; */
     height: 750px;
     width: 100%;
-    float: right;
-    padding: 25% 0px 0px 25%;
+    display: block;
+    margin: auto;
+    margin-top: 25%;
 }
 .img_code{
     height: 300px;
     width: 500px;
-    margin: auto;
-    border: solid 5px black;
     border-radius: 10px;
+    display: block;
+    margin: auto;
 }
 
 
