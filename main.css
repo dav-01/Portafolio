@@ -226,7 +226,7 @@ footer {
 
 
 #acerca_de {
-    background-image: url(/img/img1.webp);
+    background-image: url(img/img1.webp);
     background-size: cover;
     background-repeat: no-repeat;
     height: 840px;
