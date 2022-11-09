@@ -1,4 +1,4 @@
-window.alert('En Progreso')
+// window.alert('En Progreso')
 
 
 $(function () {
@@ -10,7 +10,7 @@ function maquina(contenedor, texto, intervalo, n) {
     var i = 0,
         timer = setInterval(function () {
             if (i < texto.length) {
-                $("#" + contenedor).html(texto.substr(0, i++));
+                $("#" + contenedor).html(texto.substr(0, i++) + '|');
             } else {
                 clearInterval(timer);
                 $("#" + contenedor).html(texto);
